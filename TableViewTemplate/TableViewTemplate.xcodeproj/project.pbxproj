@@ -16,6 +16,15 @@
 		D83AED4527FAFA1300A2FAAB /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED4427FAFA1300A2FAAB /* Extentions.swift */; };
 		D83AED4827FAFECE00A2FAAB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED4727FAFECE00A2FAAB /* Product.swift */; };
 		D83AED4A27FB014E00A2FAAB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED4927FB014E00A2FAAB /* DataManager.swift */; };
+		D83AED4C27FB0D5600A2FAAB /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED4B27FB0D5600A2FAAB /* ProductTableViewCell.swift */; };
+		D83AED5427FB219F00A2FAAB /* StarRatingStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83AED5027FB219F00A2FAAB /* StarRatingStackView.xib */; };
+		D83AED5527FB219F00A2FAAB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D83AED5127FB219F00A2FAAB /* README.md */; };
+		D83AED5627FB219F00A2FAAB /* StarRatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED5227FB219F00A2FAAB /* StarRatingStackView.swift */; };
+		D83AED5727FB219F00A2FAAB /* JStarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED5327FB219F00A2FAAB /* JStarRatingView.swift */; };
+		D83AED5927FB319500A2FAAB /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED5827FB319500A2FAAB /* ProductDetailController.swift */; };
+		D83AED5B27FB48A100A2FAAB /* FeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED5A27FB48A100A2FAAB /* FeedbackController.swift */; };
+		D83AED5D27FB621700A2FAAB /* ReviewTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AED5C27FB621700A2FAAB /* ReviewTableController.swift */; };
+		D8851CEE27FBF9E900C1EF72 /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8851CED27FBF9E900C1EF72 /* ReviewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		D83AED4427FAFA1300A2FAAB /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		D83AED4727FAFECE00A2FAAB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D83AED4927FB014E00A2FAAB /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D83AED4B27FB0D5600A2FAAB /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		D83AED5027FB219F00A2FAAB /* StarRatingStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarRatingStackView.xib; sourceTree = "<group>"; };
+		D83AED5127FB219F00A2FAAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D83AED5227FB219F00A2FAAB /* StarRatingStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingStackView.swift; sourceTree = "<group>"; };
+		D83AED5327FB219F00A2FAAB /* JStarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JStarRatingView.swift; sourceTree = "<group>"; };
+		D83AED5827FB319500A2FAAB /* ProductDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		D83AED5A27FB48A100A2FAAB /* FeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackController.swift; sourceTree = "<group>"; };
+		D83AED5C27FB621700A2FAAB /* ReviewTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableController.swift; sourceTree = "<group>"; };
+		D8851CED27FBF9E900C1EF72 /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +80,12 @@
 		D83AED2827FAF7ED00A2FAAB /* TableViewTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D83AED4627FAFD9F00A2FAAB /* Managers */,
 				D83AED2B27FAF7ED00A2FAAB /* SceneDelegate.swift */,
-				D83AED4327FAF9D500A2FAAB /* Utils */,
+				D83AED4627FAFD9F00A2FAAB /* Managers */,
 				D83AED4227FAF9B800A2FAAB /* Models */,
-				D83AED4127FAF9B100A2FAAB /* Views */,
 				D83AED4027FAF9A000A2FAAB /* Controllers */,
+				D83AED4127FAF9B100A2FAAB /* Views */,
+				D83AED4327FAF9D500A2FAAB /* Utils */,
 				D83AED3F27FAF96900A2FAAB /* Files */,
 			);
 			path = TableViewTemplate;
@@ -89,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				D83AED3D27FAF8B000A2FAAB /* ProductsController.swift */,
+				D83AED5827FB319500A2FAAB /* ProductDetailController.swift */,
+				D83AED5A27FB48A100A2FAAB /* FeedbackController.swift */,
+				D83AED5C27FB621700A2FAAB /* ReviewTableController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -96,6 +117,9 @@
 		D83AED4127FAF9B100A2FAAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D83AED4F27FB216600A2FAAB /* JStarView */,
+				D83AED4B27FB0D5600A2FAAB /* ProductTableViewCell.swift */,
+				D8851CED27FBF9E900C1EF72 /* ReviewsTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -122,6 +146,17 @@
 				D83AED4927FB014E00A2FAAB /* DataManager.swift */,
 			);
 			name = Managers;
+			sourceTree = "<group>";
+		};
+		D83AED4F27FB216600A2FAAB /* JStarView */ = {
+			isa = PBXGroup;
+			children = (
+				D83AED5327FB219F00A2FAAB /* JStarRatingView.swift */,
+				D83AED5127FB219F00A2FAAB /* README.md */,
+				D83AED5227FB219F00A2FAAB /* StarRatingStackView.swift */,
+				D83AED5027FB219F00A2FAAB /* StarRatingStackView.xib */,
+			);
+			name = JStarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83AED5427FB219F00A2FAAB /* StarRatingStackView.xib in Resources */,
 				D83AED3627FAF7EE00A2FAAB /* LaunchScreen.storyboard in Resources */,
+				D83AED5527FB219F00A2FAAB /* README.md in Resources */,
 				D83AED3327FAF7EE00A2FAAB /* Assets.xcassets in Resources */,
 				D83AED3127FAF7ED00A2FAAB /* Main.storyboard in Resources */,
 			);
@@ -195,11 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83AED5727FB219F00A2FAAB /* JStarRatingView.swift in Sources */,
 				D83AED4527FAFA1300A2FAAB /* Extentions.swift in Sources */,
+				D83AED5B27FB48A100A2FAAB /* FeedbackController.swift in Sources */,
 				D83AED4A27FB014E00A2FAAB /* DataManager.swift in Sources */,
+				D8851CEE27FBF9E900C1EF72 /* ReviewsTableViewCell.swift in Sources */,
+				D83AED4C27FB0D5600A2FAAB /* ProductTableViewCell.swift in Sources */,
 				D83AED2A27FAF7ED00A2FAAB /* AppDelegate.swift in Sources */,
+				D83AED5627FB219F00A2FAAB /* StarRatingStackView.swift in Sources */,
 				D83AED4827FAFECE00A2FAAB /* Product.swift in Sources */,
+				D83AED5D27FB621700A2FAAB /* ReviewTableController.swift in Sources */,
 				D83AED2C27FAF7ED00A2FAAB /* SceneDelegate.swift in Sources */,
+				D83AED5927FB319500A2FAAB /* ProductDetailController.swift in Sources */,
 				D83AED3E27FAF8B000A2FAAB /* ProductsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
