@@ -102,6 +102,10 @@ extension FeedbackController: UITextViewDelegate {
             let isCountEnough = textView.text.count > 5
             saveFeedbackBtn.isEnabled = isCountEnough
         }
+        if(text == "\n") {
+            textView.resignFirstResponder()
+            return false
+        }
         return true
     }
 }
