@@ -16,6 +16,26 @@ struct Product {
     var feedBacks: [Feedback] = []
     
     var image: UIImage?
+    
+    var ratingBar: Float{
+        if let rating  = rating {
+            return rating
+        } else {
+            return 0
+        }
+    }
+    
+    private var rating: Float? {
+        if feedBacks.isEmpty {
+            return nil
+        } else {
+            var sum: Float = 0
+            for review in feedBacks {
+                sum += review.feedbackRaiting
+            }
+            return sum / Float(feedBacks.count)
+        }
+    }
 }
 
 //MARK: - Feedback
@@ -25,7 +45,9 @@ struct Feedback {
     private let date = Date()
     
     let text: String
-    let feedbackRaiting: Double
+    let feedbackRaiting: Float
+    
+
     
     var dateString: String {
         let dateFormatter = DateFormatter()
